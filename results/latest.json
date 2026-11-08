@@ -1,89 +1,97 @@
 {
-  "analyzed_at_utc": "2026-11-08T21:49:41.323498+00:00",
+  "analyzed_at_utc": "2026-11-08T22:00:58.594155+00:00",
   "engine": "Stockfish 19 (official release)",
-  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "side_to_move": "white",
+  "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+  "side_to_move": "black",
   "seconds_per_position": 10,
   "is_game_over": false,
   "variations": [
     {
       "rank": 1,
-      "best_move_san": "d4",
-      "best_move_uci": "d2d4",
-      "principal_variation_san": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 O-O",
+      "best_move_san": "Nf6",
+      "best_move_uci": "g8f6",
+      "principal_variation_san": "1...Nf6 2. c4 e6 3. d4 d5 4. Nc3 c5 5. cxd5 cxd4 6. Qxd4",
       "principal_variation_uci": [
-        "d2d4",
         "g8f6",
         "c2c4",
         "e7e6",
-        "g1f3",
+        "d2d4",
         "d7d5",
         "b1c3",
-        "f8b4",
-        "c1g5",
-        "e8g8"
+        "c7c5",
+        "c4d5",
+        "c5d4",
+        "d1d4"
       ],
       "evaluation_for_side_to_move": {
-        "centipawns": 24,
+        "centipawns": -23,
         "mate_in": null
       },
       "evaluation_for_white": {
-        "centipawns": 24,
+        "centipawns": 23,
         "mate_in": null
       },
-      "depth": 29,
-      "seldepth": 43,
-      "nodes": 20335179
+      "depth": 28,
+      "seldepth": 33,
+      "nodes": 14884623
     },
     {
       "rank": 2,
-      "best_move_san": "e4",
-      "best_move_uci": "e2e4",
-      "principal_variation_san": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6",
+      "best_move_san": "d5",
+      "best_move_uci": "d7d5",
+      "principal_variation_san": "1...d5 2. d4 e6 3. c4 Nf6 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6",
       "principal_variation_uci": [
-        "e2e4",
-        "e7e5",
-        "g1f3",
-        "b8c6",
-        "f1b5",
+        "d7d5",
+        "d2d4",
+        "e7e6",
+        "c2c4",
         "g8f6",
-        "e1g1",
-        "f6e4",
-        "f1e1",
-        "e4d6"
+        "b1c3",
+        "f8b4",
+        "c1g5",
+        "h7h6",
+        "g5f6"
       ],
       "evaluation_for_side_to_move": {
-        "centipawns": 20,
+        "centipawns": -24,
         "mate_in": null
       },
       "evaluation_for_white": {
-        "centipawns": 20,
+        "centipawns": 24,
         "mate_in": null
       },
-      "depth": 29,
-      "seldepth": 42,
-      "nodes": 20335179
+      "depth": 28,
+      "seldepth": 38,
+      "nodes": 14884623
     },
     {
       "rank": 3,
-      "best_move_san": "Nf3",
-      "best_move_uci": "g1f3",
-      "principal_variation_san": "1. Nf3 d5",
+      "best_move_san": "e6",
+      "best_move_uci": "e7e6",
+      "principal_variation_san": "1...e6 2. d4 d5 3. c4 Nf6 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6",
       "principal_variation_uci": [
-        "g1f3",
-        "d7d5"
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "f8b4",
+        "c1g5",
+        "h7h6",
+        "g5f6"
       ],
       "evaluation_for_side_to_move": {
-        "centipawns": 18,
+        "centipawns": -25,
         "mate_in": null
       },
       "evaluation_for_white": {
-        "centipawns": 18,
+        "centipawns": 25,
         "mate_in": null
       },
-      "depth": 29,
-      "seldepth": 42,
-      "nodes": 20335179
+      "depth": 27,
+      "seldepth": 37,
+      "nodes": 14884623
     }
   ]
 }
